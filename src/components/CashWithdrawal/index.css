@@ -1,0 +1,90 @@
+/* Write your CSS here */
+
+.bg-conatiner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.content-container {
+  background-color: #150b3e;
+  border-radius: 20px;
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 25px;
+  padding-right: 20px;
+}
+
+.name-container {
+  display: flex;
+  align-items: center;
+}
+
+.profile {
+  background-color: #c7d2fe;
+  height: 50px;
+  width: 50px;
+  border-radius: 100px;
+  margin-right: 10px;
+  color: #7c3aed;
+  padding-left: 20px;
+  padding-top: 8px;
+  font-size: 22px;
+}
+
+.name {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #d4d2db;
+}
+
+.balance-conatiner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.para {
+  font-family: 'Roboto';
+  font-size: 17px;
+  color: #585076;
+  font-weight: 600;
+  margin-top: 0;
+}
+
+.balance {
+  font-family: 'Roboto';
+  font-size: 25px;
+  color: #ffffff;
+  margin-top: 0;
+}
+
+.remaining-balance {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #585076;
+  margin-top: 0;
+  font-weight: 600;
+}
+
+.in-rupees {
+  font-family: 'Roboto';
+  font-size: 17px;
+  color: #585076;
+  font-weight: 600;
+  margin-top: 0;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 25px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.denominatiopn-container {
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
